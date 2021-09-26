@@ -1,5 +1,7 @@
 import React from 'react';
-import'./Artist.css'
+import'./Artist.css';
+import logo from '../../image/icon.png'
+
 
 const Artist = (props) => {
     // console.log(props)
@@ -16,7 +18,14 @@ const Artist = (props) => {
             <h5>Age: <small>{born}</small></h5>
             <h5>Nationality: <small>{country}</small></h5>
             <h5>Salary: ৳ <small>{slary}</small></h5>
-            <button onClick={()=>props.handleAddArtist(props.artist)} type="button" class="btn text-white bg-danger">Click to Hired</button>
+            <div className="d-flex">
+                <div>
+                <button onClick={()=>props.handleAddArtist(props.artist)} type="button" class="btn text-white bg-danger me-4 mt-2">Click to Hired</button>
+                </div>
+               <div>
+                <img style={{height:"50px" ,width:"120px"}} src={logo} alt="Logo" />
+               </div>
+            </div>
 
         </div>
       </div>

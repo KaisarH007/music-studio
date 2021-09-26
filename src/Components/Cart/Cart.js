@@ -16,10 +16,10 @@ const totalCost = artists.reduce(totalCostRuducer  , 0)
 
     return (
         <div className="text-center">
-            <h2 className="fw- text-white">{icon}Total Hired :{artists.length}</h2>
+            <h2 className="fw- text-white">{icon}Total Hired: {artists.length}</h2>
             <h2 className="fw- text-white">Total Cost: ৳ {totalCost}</h2>
 
-              <h4 class="text-warning fw-bold">Hireded Artists</h4>
+              <h2 class="text-danger fw-bold">Hireded Artists</h2>
                 
             <ul>
                 {
