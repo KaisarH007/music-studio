@@ -13,7 +13,7 @@ const Artist = (props) => {
       <img style={{height:"150px" ,width:"150px"}} src={img} class="card-img-top rounded-circle  rounded mx-auto d-block p-2 " alt="..."/>
       <div class="card-body">
         <h5 class="card-title text-center fw-bold">{name}</h5>
-        <div class="card-text">
+        <div class="card-text text-center">
             <h5>Occupation : <small>{occupation}</small></h5>
             <h5>Age: <small>{born}</small></h5>
             <h5>Nationality: <small>{country}</small></h5>
