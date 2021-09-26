@@ -37,7 +37,6 @@ useEffect(()=>{
             </div>
             <div className="col-md-3">
                 <Cart
-                key={cartArtist[0]}
                 cartArtist={cartArtist}></Cart>
             </div>
         </div>

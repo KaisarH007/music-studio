@@ -29,9 +29,9 @@ const totalCost = artists.reduce(totalCostRuducer  , 0)
                 <ul class="list-group list-group-flush ">
                 
                   <li class="list-group-item ">
-                      <div><img style={{height:"50px" ,width:"50px"}} src={artist.img} alt="" />
+                      <div><img style={{height:"60px" ,width:"60px"}} src={artist.img} alt="" />
                       </div>
-                      <div>{artist.name}</div></li>
+                      <div className="text-danger fw-bold">{artist.name}</div></li>
                 </ul>
                
               </div>)
