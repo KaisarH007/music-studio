@@ -57,5 +57,86 @@ const singers =[
         img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Afran_Nisho.jpg/220px-Afran_Nisho.jpg',
         slary: 85000,
         id:6
-    }
+    },
+    {
+        name:'Adil Hossain Noble',
+        occupation: 'Actor,Model',
+        born:'8 December 1982 (age 38)',
+        country:'Bangladeshi',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Adil_Hossain_Noble_2013.jpg/220px-Adil_Hossain_Noble_2013.jpg',
+        slary: 90000,
+        id:7
+    },
+    {
+        name:'Bidya Sinha Saha Mim',
+        occupation: 'Actress,Model',
+        born:'8 January 1990 (age 31)',
+        country:'Bangladeshi',
+        img: 'https://static.toiimg.com/thumb/61372613.cms?width=170&height=240',
+        slary: 85000,
+        id:8
+    },
+    {
+        name:'Sonam Bajwa',
+        occupation: 'Actress,Model',
+        born:'16 August 1989 (age 32',
+        country:'Indian',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/1/13/Sonam_Bajwa_%28cropped%29.jpg',
+        slary: 150000,
+        id:9
+    },
+    {
+        name:'Niruta Singh',
+        occupation: 'Actress,Model',
+        born:'8 January 1990 (age 31)',
+        country:'Indian',
+        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Niruta-Singh-14.jpg/220px-Niruta-Singh-14.jpg',
+        slary: 195000,
+        id:10
+    },
+    {
+        name:'Shreya Ghoshal',
+        occupation: 'Singer,Model',
+        born:'March 12, 1984 (age 37)',
+        country:'Indian',
+        img: 'https://starsunfolded.com/wp-content/uploads/2016/10/Shreya-Ghoshal-2.jpg',
+        slary: 295000,
+        id:11
+    },
+    {
+        name:'Neha Kakkar',
+        occupation: 'Singer,Model',
+        born:'June 6, 1988 (age 33)',
+        country:'Indian',
+        img: 'https://biographymafia.com/wp-content/uploads/2020/11/20201125_110641.jpg',
+        slary: 250000,
+        id:12
+    },
+    {
+        name:'A. R. Rahman',
+        occupation: 'Singer',
+        born:'January 6, 1967 (age 54)',
+        country:'Indian',
+        img: 'https://www.behindwoods.com/tamil-movies-cinema-news-16/images/rapper-badshah-talks-about-ar-rahman-photos-pictures-stills.jpg',
+        slary: 350000,
+        id:13
+    },
+    {
+        name:'Badshah',
+        occupation: 'Singer,Model',
+        born:' November 19, 1985 (age 35)',
+        country:'Indian',
+        img: 'https://wikibio.in/wp-content/uploads/2019/05/Badshah-image.jpg',
+        slary: 295000,
+        id:14
+    },
+    {
+        name:'Atif Aslam',
+        occupation: 'Singer,Model',
+        born:'March 12, 1983 (age 38),',
+        country:'Pakistani',
+        img: 'https://i1.sndcdn.com/artworks-000478629339-vddvs5-t500x500.jpg',
+        slary: 270000,
+        id:15
+    },
 ]

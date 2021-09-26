@@ -22,7 +22,7 @@ useEffect(()=>{
 
 
     return (
-        <div className="row mx-auto my-4">
+        <div className="row mx-auto mt-4">
 
             <div className="col-md-9">
                 <div className="row g-4">
