@@ -1,8 +1,7 @@
 .bg-banner{
-  background-image: url('./image/banner.jpg');
-  background-repeat: no-repeat;
+  background-image: url('./image/banner2.jpg');
   background-size: cover;
-  
+  box-shadow:inset 0 0 0 2000px rgba(85, 3, 58, 0.575);
   
 }
 
