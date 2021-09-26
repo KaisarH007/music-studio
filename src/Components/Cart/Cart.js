@@ -1,7 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-const icon = <FontAwesomeIcon icon={faCoffee} />
+import { faUser, faCheck} from '@fortawesome/free-solid-svg-icons'
+const icon = <FontAwesomeIcon icon={faUser} />
+const buttonIcon = <FontAwesomeIcon icon={faCheck} />
 
 
 const Cart = (props) => {
@@ -35,7 +36,7 @@ const totalCost = artists.reduce(totalCostRuducer  , 0)
                
               </div>)
                 }
-                 <button className="btn bg-danger text-white mt-2 fw-bold">Confirm</button>
+                 <button className="btn bg-danger text-white mt-2 fw-bold">{buttonIcon}Confirm</button>
             </ul>
         </div>
 
